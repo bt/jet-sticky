@@ -9,7 +9,7 @@
 
 			elementorFrontend.hooks.addAction( 'frontend/element_ready/section', JetSticky.setStickySection );
 
-			$( document ).on( 'ready', JetSticky.stickySection );
+			$( document ).ready(JetSticky.stickySection);
 		},
 
 		elementorColumn: function( $scope ) {
